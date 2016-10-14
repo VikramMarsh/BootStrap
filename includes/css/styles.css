@@ -1,0 +1,224 @@
+/*
+
+My Custom CSS
+=============
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+.panel-heading h2{
+   margin: 0;
+}
+#features{
+   text-align: center;
+}
+#features img{
+   margin: 0 0 10px;
+}
+#googlemap iframe{
+margin: 20px 0 20px 0;
+}
+#inputmessage{
+   margin-bottom: 15px;
+}
+
+footer{
+   margin-top: 20px;
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+}
+footer ul{
+   list-style: none;
+   padding: 0;
+}
+
+footer h5{
+   font-family: 'Jura', sans-serif;
+   text-transform: uppercase;
+}
+.well h1{
+   margin-top: 0;
+}
+.well{
+   margin: 10px 0;
+}
+.leftimage{
+   margin: 0 20px 20px 0;
+}
+.rightimage{
+   margin: 0 0 20px 20px;
+}
+#gallery-callout{
+   padding-top: 40px;
+}
+
+.gallery h2{
+   font-family: 'Jura', sans-serif;
+   font-weight: 300;
+   padding-top: 10px;
+   margin: 20px 0 20px 0;
+   padding-top: 0;
+}
+.gallery a:hover{
+   text-decoration: none;
+   font-weight: 600;
+}
+.gallery a{
+   color: #333;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+.navbar li{
+font-family: 'Raleway',sans-serif;
+text-transform: uppercase;
+font-weight: 700;
+font-size: 15px;
+}
+
+#myslider h1{
+font-family: 'Coda', cursive;
+}
+#myslider p{
+font-family: 'Coda', cursive;
+}
+
+#features h2{
+   font-family: 'Raleway',sans-serif;
+   text-transform: uppercase;
+   text-shadow: 2px 2px 5px #333;
+}
+#features h3,.tabbable h4{
+   font-family: 'Jura', sans-serif;
+color: rgb(68,68,68);
+}
+
+
+#callout h1, #tab_head, #googlemap h1,.tabbable h3,.well h1{
+   text-transform: uppercase;
+   font-family: 'Raleway',sans-serif;
+   font-weight: 700;
+}
+
+#callout p, .well p{
+   font-family: 'Jura', sans-serif;
+   color: rgb(68,68,68);
+}
+
+.modal-body h1{
+text-transform: uppercase;
+   font-family: 'Raleway',sans-serif;
+}
+.modal-body p, cite{
+    font-family: 'Jura', sans-serif;
+color: rgb(68,68,68);
+}
+.modal-footer{
+   background: none;
+}
+.modal-title{
+   text-transform: uppercase;
+   font-family: 'Raleway',sans-serif;
+}
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.search_box{
+   width: 200px;
+}
+ul{
+padding: 20px;
+}
+#icon_bar{
+   margin: 15px 0;
+}
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myslider .item{
+height: 400px;
+}
+
+#slide1{
+   background: url('../../images/medium_im3.png') top center no-repeat;
+   background-size: cover; 
+}
+#slide2{
+   background: url('../../images/medium_im2.png') top center no-repeat;
+   background-size: cover;
+}
+#slide3{
+   background: url('../../images/medium_im1.png') top center no-repeat;
+   background-size: cover;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+body{
+   padding-top: 50px;
+   background: url(../../images/bg_logo.jpg) no-repeat;
+   background-size: cover;
+}
+   
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+   
+  
+#myslider .item{
+height: 310px;
+}
+#slide1{
+   background: url('../../images/small_im3.png') top center no-repeat;
+   background-size: cover; 
+}
+#slide2{
+   background: url('../../images/small_im2.png') top center no-repeat;
+   background-size: cover;
+}
+#slide3{
+   background: url('../../images/small_im1.png') top center no-repeat;
+   background-size: cover;
+}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	#myslider .item
+   {
+   height: 500px;
+}
+#slide1{
+   background: url('../../images/large_im3.png') top center no-repeat;
+   background-size: cover;
+}
+#slide2{
+   background: url('../../images/large_im2.png') top center no-repeat;
+   background-size: cover;
+}
+#slide3{
+   background: url('../../images/large_im1.png') top center no-repeat;
+   background-size: cover;
+}
+
+}
