@@ -8,296 +8,292 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		
 		<!-- Bootstrap CSS -->
-		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-		<link rel="stylesheet" href="includes/css/bootstrap-glyphicons.css">
+		<link href="css/bootstrap.css" rel="stylesheet">
+
 		<link href="https://fonts.googleapis.com/css?family=Raleway|Russo+One" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Jura" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Coda|Copse|Damion|Luckiest+Guy" rel="stylesheet">
+		
 		<!-- Custom CSS -->
-		<link href="includes/css/styles.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
 	</head>
 <body>
 
-	<!-- Navbar Conatiner -->
+<!-- **************************Navbar Conatiner ***************************-->
 
-	<div class="container"> 
-		<nav class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container-fluid">
+<nav class="navbar navbar-inverse navbar-fixed-top">
 
-<!-- Invisible Bar -->
+<!-- *************************Invisible Bar******************************* -->
 
-			<button class="navbar-toggle" id="icon_bar" data-target=".nav_shrink" data-toggle="collapse" type="button">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			</button>		
-<!-- Invisible Bar -->
+	<button class="navbar-toggle" id="icon_bar" data-target=".nav_shrink" data-toggle="collapse" type="button">
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+		<span class="icon-bar"></span>
+	</button>
 
-			<a class="navbar-brand" href="#"><img src="images/razorlogo.png" alt="Logo"></a>
-			<div class="nav-collapse collapse nav_shrink">
-				<ul class="nav navbar-nav pull-right">
-				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Home<span class="caret"></span></a>
-					<ul class="dropdown-menu pull-right">
-					<li><a href="#">Overview</a></li>
-					<li><a href="#">Booking</a></li>
-					<li><a href="#">Offers</a></li>
-					<li><a href="#">Spare Parts</a></li>
-					<li><hr></li>
-					<li><a href="#">More</a></li>
-					</ul>
-				</li>	
-				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery<span class="caret"></span></a>
-					<ul class="dropdown-menu pull-right">
+<!-- **************************Invisible Bar******************************* -->
+			
+	<a class="navbar-brand" href="#"><img src="./images/razorlogo.png" height="" alt="Logo"></a>
+	<div class="navbar-collapse collapse nav_shrink">
+		<ul class="nav navbar-nav navbar-right">
+			<li class="active">
+				<a href="#">Home</a>
+			</li>	
+			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Gallery<span class="caret"></span></a>
+				<ul class="dropdown-menu">
 					<li><a href="#">Motocross Bike</a></li>
 					<li><a href="#">Vinatge Collection</a></li>
 					<li><a href="#">SuperBikes</a></li>
 					<li><a href="#">Concept Modal</a></li>
-					<li><hr></li>
-					<li><a href="gallery.html">More</a></li>
-					</ul>
-				</li>
-				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Community<span class="caret"></span></a>
-					<ul class="dropdown-menu pull-right">
-					<li><a href="#">Gangs</a></li>
-					<li><a href="#">Hog Riders</a></li>
-					<li><a href="#">Bikers Arena</a></li>
-					<li><hr></li>
-					<li><a href="#">More</a></li>
-					</ul>
-				</li>
-				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Support<span class="caret"></span></a>
-					<ul class="dropdown-menu pull-right">
-					<li><a href="#">General Sevices</a></li>
-					<li><a href="#">On Demand Services</a></li>
-					<li><a href="#">SuperBikes</a></li>
 					<li class="divider"></li>
-					<li><a href="#">More</a></li>
-					</ul>
-				</li>
-				<li>
-					<form class="navbar-form">
+					<li><a href="./gallery.html">More</a></li>
+				</ul>
+			</li>
+			<li>
+				<form class="navbar-form">
 					<input type="text" class="form-control search_box" placeholder="Search Here">
 					<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-					</form>
-				</li>
-				<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span>Login
-					<span class="caret"></span></a>
-					<ul class="dropdown-menu">
+				</form>
+			</li>
+			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user "></span>Login
+				<span class="caret"></span></a>
+				<ul class="dropdown-menu">
 					<li>
-					<a href="#"><span class="glyphicon glyphicon-wrench"></span>Setting</a>
+						<a href="#"><span class="glyphicon glyphicon-wrench"></span>Setting</a>
 					</li>
 					<li>
-					<a href="#"><span class="glyphicon glyphicon-refresh"></span>Update profile</a>
+						<a href="#"><span class="glyphicon glyphicon-refresh"></span>Update Profile</a>
 					</li>
-					<li class="divider">
-					</li>
+					<li class="divider"></li>
 					<li>
-					<a href="#"><span class="glyphicon glyphicon-off"></span>Sign Out</a>
+						<a href="#"><span class="glyphicon glyphicon-off"></span>SignOut</a>
 					</li>								
-					</ul>
-				</li>
 				</ul>
-			</div> <!-- End Navbar collapse -->
-			</div> <!-- End Container-Fluid -->
-		</nav> <!-- End of NavBar -->
-</div> <!-- End Navbar Main Conatiner -->
+			</li>
+		</ul>
+	</div> 
+</nav> 
 
-<!-- Carousel -->
+<!-- *************************End of NavBar***************************************** -->
+
+<!-- **********************************Carousel Container Fluid*************************** -->
+
 <div class="container-fluid">
-		<div class="carousel slide" id="myslider">
+	<div class="carousel slide" id="myslider">
 
-		<!-- Bullets or Indicators -->
+<!-- ********************Carousel Bullets or Indicators***************************** -->
+
 		<ol class="carousel-indicators">
 			<li class="active" data-slide-to="0" data-target="#myslider"></li>
 			<li data-slide-to="1" data-target="#myslider"></li>
 			<li data-slide-to="2" data-target="#myslider"></li>
 		</ol>
-		<!-- Bullets or Indicators -->
 
-		<!-- Wrapping Slides -->
+<!-- *******************Carousel Bullets or Indicators****************************** -->
+
 		<div class="carousel-inner">
 			<div class="item active" id="slide1">
-			<div class="carousel-caption">
-			<h1>Brand</h1>
-			<p class="lead">Can't Resist</p>
-			</div>
+				<div class="carousel-caption">
+					<h1>Brand</h1>
+					<p class="lead">Can't Resist</p>
+				</div>
 			</div>
 			<div class="item" id="slide2">
-			<div class="carousel-caption">
-			<h1>Power</h1>
-			<p class="lead">Roasted with Perfection</p>
-			</div>
+				<div class="carousel-caption">
+					<h1>Power</h1>
+					<p class="lead">Roasted with Perfection</p>
+				</div>
 			</div>
 			<div class="item" id="slide3">
-			<div class="carousel-caption">
-			<h1>Style</h1>
-			<p class="lead">Cant be Tamed</p>
+				<div class="carousel-caption">
+					<h1>Style</h1>
+					<p class="lead">Cant be Tamed</p>
+				</div>
 			</div>
-			</div>
-		</div><!-- Wrapper Ends -->
+		</div>
 
-			<!-- Controls -->
-			<a href="#myslider" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
-			<a href="#myslider" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
-			<!-- Controls ends -->
+<!-- *********************Carousel Navigation************************************** -->
 
-		</div><!-- Slider Ends -->
+		<a href="#myslider" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+		<a href="#myslider" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
+
+<!-- *********************End of Carousel Navigation************************************* -->
+
+	</div>
 </div>
-<!-- End Carousel Fluid -->
+<!-- **************************End of Carousel Contaoiner Fluid*************************************** -->
 
 <div class="container">
-		<!-- Callout Section -->
-		<div class="row" id="gallery-callout">
-			<div class="col-12">
-			<div class="well well-small visible-sm">
-			<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Need Help!!!!! Call 99583***</a>
+
+<!-- ********************Callout Section***************************** -->
+			
+	<div class="row" id="gallery-callout">
+		<div>
+			<div class="well well-small visible-xs call">
+				<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span> Need Help!!!!! Call *****</a>
 			</div>
 			<div class="well">
-			<h1>RazorBiking <small>Two Wheels Move The Soul.</small></h1>
-			<p class="lead">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.
-			</p>
-			<a href="" class="btn btn-medium btn-success">Register</a>
+				<h1>RazorBiking <small>Two Wheels Move The Soul.</small></h1>
+				<p class="lead">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.
+				</p>
+				<a href="" class="btn btn-medium btn-success">Register</a>
 			</div>
-			</div>
 		</div>
-		<!-- Callout Section -->
+	</div>
 
-<!-- 3 col Section -->
-<div class="row" id="features">
-	<div class="col-sm-4">
-		<div class="panel">
-		<div class="panel-heading">
-		<h2>Upcomings</h2>
-		</div>
-		<img src="images/bike1.jpg" alt="Image" class="img-responsive">
-		<h3>Because we are Reliable.</h3>
-		<hr>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
-		<a href="#" class="btn btn-warning btn-block">More</a>
-		</div>
-	</div>
-	<div class="col-sm-4">
-		<div class="panel">
-		<div class="panel-heading">
-		<h2>Features</h2>
-		</div>
-		<img src="images/bike2.jpg" alt="Image" class="img-responsive">
-		<h3>Redefine your Brand & Styles.</h3>
-		<hr>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
-		<a href="#" class="btn btn-success btn-block">More</a>
-		</div>
-	</div>
-	<div class="col-sm-4">
-		<div class="panel">
-		<div class="panel-heading">
-		<h2>Future Releases</h2>
-		</div>
-		<img src="images/bike3.jpg" alt="Image" class="img-responsive">
-		<h3>Make our Customers Happy.</h3>
-		<hr>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
-		<a href="#" class="btn btn-danger btn-block">More</a>
-		</div>
-	</div>
-</div>
-<!-- 3 col Section -->
+<!--***********************End of Callout Section********************* -->
 
-<!-- Tabbable area -->
-<div class="row">
-	<div class="col-sm-6">
-	<h1 id="tab_head">Technology</h1>
-	<div class="tabbable">
-		<ul class="nav nav-pills">
-		<li class="active"><a href="#tab1" data-toggle="tab">DESIGN</a></li>
-		<li><a href="#tab2" data-toggle="tab">NATURE</a></li>
-		</ul>
-		<div class="tab-content">
-			<div class="tab-pane active" id="tab1">
-				<img src="images/image1.png" class="thumbnail pull-left img-responsive leftimage" alt="leftimage">
-				<h3>New Generation Bikes</h3>
-				<h4>Its a new Era of Biking</h4>
+<!--************************ 3 col Section*************************** -->
+
+	<div class="row" id="features">
+		<div class="col-sm-4">
+			<div class="panel">
+				<div class="panel-heading">
+					<h2>Upcomings</h2>
+				</div>
+				<img src="./images/bike1.jpg" alt="Image" class="img-responsive center-block">
+				<h3>Because we are Reliable.</h3>
 				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia</p>
-				<p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
+				<a href="#" class="btn btn-warning btn-block">More</a>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="panel">
+				<div class="panel-heading">
+					<h2>Features</h2>
+				</div>
+				<img src="./images/bike2.jpg" alt="Image" class="img-responsive center-block">
+				<h3>Redefine your Brand & Styles.</h3>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
+				<a href="#" class="btn btn-success btn-block">More</a>
+			</div>
+		</div>
+		<div class="col-sm-4">
+			<div class="panel">
+				<div class="panel-heading">
+					<h2>Future Releases</h2>
+				</div>
+				<img src="./images/bike3.jpg" alt="Image" class="img-responsive center-block">
+				<h3>Make our Customers Happy.</h3>
+				<hr>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.</p>
+				<a href="#" class="btn btn-danger btn-block">More</a>
+			</div>
+		</div>
+	</div>
 
-				<a href="#mymodallogin" role="button" class="btn btn-danger" data-toggle="modal">JOIN COMMUNITY<span class="glyphicon glyphicon-hand-up"></span></a>
+<!-- ***********************End of 3 col Section***************************** -->
 
-				<!-- My Modal -->
-				<div class="modal fade" id="mymodallogin">
-					<div class="modal-dialog">
-					<div class="modal-content">
-					<div class="modal-header"><button class="close" data-dismiss="modal">&times;</button>
-					<h4 class="modal-title">Communities</h4>
-					</div>
-					<div class="modal-body">
-						<h1><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Bikers Gang</h1>
-						<blockquote>
-						<p>Riding a race bike is an art - a thing that you do because you feel something inside. </p>
-						<footer class="modal-footer"><cite>Valentino Rossi</cite></footer>
-						</blockquote>
+<!-- *************************2 Col Section************************************-->
+
+	<div class="row">
+		<div class="col-sm-6">
+			<h1 id="tab_head">Technology</h1>
+			<div class="tabbable">
+				<ul class="nav nav-pills">
+					<li class="active"><a href="#tab1" data-toggle="tab">DESIGN</a></li>
+					<li><a href="#tab2" data-toggle="tab">NATURE</a></li>
+				</ul>
+				<div class="tab-content">
+
+<!-- **********************First tab Content******************************** -->
+
+					<div class="tab-pane active" id="tab1">
+						<img src="./images/image1.png" class="thumbnail pull-left img-responsive leftimage" alt="leftimage">
+						<h3>New Generation Bikes</h3>
+						<h4>Its a new Era of Biking</h4>
 						<hr>
-						<!-- Modal Form -->
-							<form class="form-horizontal">
-								<div class="form-group">
-								<label for="inputEmail" class="col-sm-2 control-label">Email</label>
-								<div class="col-sm-10">
-								<input type="email" class="form-control" id="inputEmail" placeholder="Email">
-								</div>
-								</div>
-								<div class="form-group">
-								<label for="inputPassword" class="col-sm-2 control-label">Password</label>
-								<div class="col-sm-10">
-								<input type="password" class="form-control" id="inputPassword" placeholder="Password">
-								</div>
-								</div>
-								<div class="form-group">
-								<label for="inputmessage" class="col-sm-2 control-label">Message</label>
-								<div class="col-sm-10">
-								<textarea class="form-control" id="inputmessage" rows="3"></textarea>
-								<button type="submit" class="btn btn-success pull-right">SIGNIN</button>
-								</div>
-								</div>
-							</form>										
-						<!-- Modal Form -->
-					</div><!-- Modal Body ends -->
-					<div class="modal-footer">
-					<button class="btn btn-default" data-dismiss="modal" type="button">CLOSE</button>
-					<button class="btn btn-primary" type="button">SAVE</button>
-					</div>
-					</div>
-					</div>
-				</div> <!--My Modal Ends -->
-				<!-- Modal Form Ends -->
-			</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia</p>
+						<p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia</p>
+						<a href="#mymodallogin" role="button" class="btn btn-danger" data-toggle="modal">JOIN COMMUNITY<span class="glyphicon glyphicon-hand-up"> </span></a>
 
-			<div class="tab-pane" id="tab2">
-				<img src="images/image2.png" class="thumbnail pull-right img-responsive rightimage" alt="leftimage">
-				<h3>Revolutionary</h3>
-				<h4>Eco-Friendly</h4>
-				<hr>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia</p>
-				<p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia</p>
+<!-- ********************************Modal Page************************* -->
+
+						<div class="modal fade" id="mymodallogin">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header"><button class="close" data-dismiss="modal">&times;</button>
+										<h4 class="modal-title">Communities</h4>
+									</div>
+									<div class="modal-body">
+										<h1><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Bikers Gang</h1>
+										<blockquote>
+										<p>Riding a race bike is an art - a thing that you do because you feel something inside. </p>
+										<footer class="modal-footer"><cite>Valentino Rossi</cite></footer>
+										</blockquote>
+										<hr>
+
+<!-- **********************Modal Form************************************* -->
+
+										<form class="form-horizontal">
+											<div class="form-group">
+												<label for="inputEmail" class="col-sm-2 control-label">Email</label>
+												<div class="col-sm-10">
+													<input type="email" class="form-control" id="inputEmail" placeholder="Email">
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="inputPassword" class="col-sm-2 control-label">Password</label>
+												<div class="col-sm-10">
+													<input type="password" class="form-control" id="inputPassword" placeholder="Password">
+												</div>
+											</div>
+											<div class="form-group">
+												<label for="inputmessage" class="col-sm-2 control-label">Message</label>
+												<div class="col-sm-10">
+													<textarea class="form-control" id="inputmessage" rows="3"></textarea>
+													<button type="submit" class="btn btn-success pull-right">SIGNIN</button>
+												</div>
+											</div>
+										</form>		
+
+<!-- *************************Modal Form********************************* -->
+
+									</div>
+									<div class="modal-footer">
+										<button class="btn btn-default" data-dismiss="modal" type="button">CLOSE</button>
+										<button class="btn btn-primary" type="button">SAVE</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+<!-- **********************First Tab content Ends******************************* -->
+
+<!-- **********************Second Tab content ********************************** -->
+
+					<div class="tab-pane" id="tab2">
+						<img src="./images/image2.png" class="thumbnail pull-right img-responsive rightimage" alt="leftimage">
+						<h3>Revolutionary</h3>
+						<h4>Eco-Friendly</h4>
+						<hr>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia</p>
+						<p>Quos, non, esse eligendi ab accusantium voluptatem. Maxime eligendi beatae, atque tempora ullam. Vitae delectus quia, consequuntur rerum molestias quo.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi rem, facilis nobis voluptatum est voluptatem accusamus molestiae eaque perspiciatis mollitia</p>
+					</div>
+<!-- **********************Second Tab Content Ends ********************************** -->
+				</div>
 			</div>
 		</div>
-	</div>
-	</div>
+
+<!-- *****************************Embeded Object(google Map)************************************ -->
+
 		<div class="col-sm-6" id="googlemap">
-		<h1>Locate Us</h1>
-
-		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.570109660319!2d77.61178381469018!3d12.935328519173348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e0c7d418f%3A0x48d008360cebcde4!2sStackRoute!5e0!3m2!1sen!2sin!4v1476361421437" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
-		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-		
+			<h1>Locate Us</h1>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.570109660319!2d77.61178381469018!3d12.935328519173348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae144e0c7d418f%3A0x48d008360cebcde4!2sStackRoute!5e0!3m2!1sen!2sin!4v1476361421437" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>	
 		</div>
-	<hr>
-</div>
+		<hr>
+	</div>
 
-<!-- tabbable area Ends -->
+<!-- *****************************2 Col Section Ends***************************** -->
 
 </div><!-- End Of Container -->
 
-<!-- Footer -->
+<!-- ****************************Footer Section**************************************** -->
 
 <footer>
 	<div class="container-fluid">
@@ -312,24 +308,24 @@
 			<div class="col-sm-3">
 				<h5>Navigation</h5>
 				<ul class="unstyled">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Community</a></li>
-				<li><a href="#">Contact Us</a></li>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Community</a></li>
+					<li><a href="#">Contact Us</a></li>
 				</ul>
 			</div>
 			<div class="col-sm-3">
 				<h5>Follow Us</h5>
 				<ul class="unstyled">
-				<li><a href="#">Facebook</a></li>
-				<li><a href="#">Twiiter</a></li>
-				<li><a href="#">Google+</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Twiiter</a></li>
+					<li><a href="#">Google+</a></li>
 				</ul>
 			</div>
 		</div>
 	</div>
 </footer>
 
-<!-- Footer Ends -->
+<!-- ******************************Footer Section Ends********************************* -->
 	
 <!-- All Javascript at the bottom of the page for faster page loading -->
 		
@@ -337,10 +333,7 @@
 	<script src="http://code.jquery.com/jquery.js"></script>
 	
 	<!-- Bootstrap JS -->
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	
-	<!-- Custom JS -->
-	<script src="includes/js/script.js"></script>
+	<script src="js/bootstrap.js"></script>
 	
 	</body>
 </html>
