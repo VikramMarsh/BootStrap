@@ -100,6 +100,7 @@ footer h5{
 
 
 /********************Styling of Fonts ,Heading and Paragraphs********************/
+
 .navbar li{
    font-family: 'Raleway',sans-serif;
    text-transform: uppercase;
@@ -156,6 +157,15 @@ footer h5{
 }
 
 /********************Styling of Fonts ,Heading and Paragraphs********************/
+
+/******************************Gallery Page Styling***************************************/
+.gallery h2{
+   font-family: 'Jura', sans-serif;
+}
+
+.gallery a{
+   text-decoration: none;
+}
 
 
 /********************Media Queries********************/
